@@ -1,0 +1,43 @@
+@media screen and (max-width:1024px){
+    .group{
+        padding-left:10px;
+    }
+    
+    .step-p2{
+        width:200px;
+    }
+}
+
+@media screen and (max-width:430px){
+    header{
+        display:none;
+    }
+
+    h1{
+        font-size:18px;
+        padding:100px 0;
+    }
+
+    h2{
+        font-size:18px;
+    }
+
+    .group{
+        width:100%;
+        padding-right:10px;
+        padding-bottom:30px;
+    }
+
+    img{
+        width:100%;
+        margin-bottom:30px;
+    }
+
+    .step0{
+        flex-wrap:wrap;
+    }
+
+    .step-p2{
+        margin-bottom:20px;
+    }
+}
